@@ -58,7 +58,7 @@ function search(){
      */
     var searchInput = document.getElementById("name").value;
     var search = document.getElementById("search");
-    searchResults.innerHTML = "";
+    search.innerHTML = "";
     for (var i = 0; i < data.length; i++) {
       if (data[i].name.substr(0, searchInput.length).toUpperCase() === searchInput.toUpperCase()) {
         var nameElement = document.createElement("p");
