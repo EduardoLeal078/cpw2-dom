@@ -57,13 +57,13 @@ function search(){
      * Além disso, a função removeAllChildren abaixo também pode ser útil para o desenvolvimento da solução
      */
     var searchInput = document.getElementById("name").value;
-    var searchResults = document.getElementById("search");
+    var search = document.getElementById("search");
     searchResults.innerHTML = "";
     for (var i = 0; i < data.length; i++) {
       if (data[i].name.substr(0, searchInput.length).toUpperCase() === searchInput.toUpperCase()) {
         var nameElement = document.createElement("p");
         nameElement.textContent = data[i].name;
-        searchResults.appendChild(nameElement);
+        search.appendChild(nameElement);
       }
     }
 
