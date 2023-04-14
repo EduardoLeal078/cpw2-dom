@@ -25,10 +25,10 @@ function show(){
       * Recupera os valores dos campos de texto cujo o id='fname' e id='lname' e apresente o nome
       * e o sobrenome de uma pessoa (separado por um espaço) na div id='result'
       */
-     const firstName = document.getElementById('fname').value;
-     const lastName = document.getElementById('lname').value;
-     const fullName = `${firstName} ${lastName}`;
-     document.getElementById('result').textContent = fullName;
+     const Primeiro = document.getElementById('fname').value;
+     const Segundo = document.getElementById('lname').value;
+     const Nome = `${Primeiro} ${Segundo}`;
+     document.getElementById('result').textContent = Nome;
      document.getElementById('result').style.display = 'block';
 }
 
