@@ -10,7 +10,6 @@ function background(){
      * alterar o background do body para a cor #BECCC3.
      */
     document.getElementsByTagName('body')[0].style.backgroundColor = '#BECCC3';
-
 }
 
 /**
